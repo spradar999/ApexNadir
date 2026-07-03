@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# QGIS / Python temporary files
+*.py.bak
+*.bak
+*.tmp
+*.log
+
+# Packaged plugin archives
+*.zip
+dist/
+build/
