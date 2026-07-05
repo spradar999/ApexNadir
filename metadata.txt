@@ -10,12 +10,14 @@ icon=logo.png
 category=Raster
 experimental=False
 
+about=ApexNadir isolates localized terrain extremes. It maps and converts raw digital elevation model (DEM) pixels into an output vector point layer, pinpointing exactly where the maximum or minimum spatial elevation peaks exist inside each target boundary.
+
 # MANDATORY WEB RESOURCES REPOSITORY CHANNELS
 tracker=https://github.com
 repository=https://github.com/spradar999/ApexNadir
 
-[about]
-about=ApexNadir isolates localized terrain extremes. It maps and converts raw digital elevation model (DEM) pixels into an output vector point layer, pinpointing exactly where the maximum or minimum spatial elevation peaks exist inside each target boundary.
+
+
 
 [tags]
 tags=raster, vector, elevation, dem, maximum, minimum, extreme, polygon, apex, nadir
