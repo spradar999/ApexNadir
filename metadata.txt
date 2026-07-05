@@ -1,6 +1,7 @@
 [general]
 name=ApexNadir
 description=Extracts the absolute highest (apex) or lowest (nadir) elevation points inside vector polygon boundaries using DEM raster datasets.
+about=ApexNadir isolates localized terrain extremes. An automated spatial tool that processes multiple vector polygons simultaneously, sequentially extracting the exact maximum (apex) and minimum (nadir) elevation point locations from an underlying DEM raster layer for each individual polygon boundary.
 version=1.0.0
 qgisMinimumVersion=3.0
 supportsQt6=True
@@ -9,17 +10,11 @@ email=spradar999@gmail.com
 icon=logo.png
 category=Raster
 experimental=False
-
-about=ApexNadir isolates localized terrain extremes. 
-It maps and converts raw digital elevation model (DEM) pixels into an output vector point layer, pinpointing exactly where the maximum or minimum spatial elevation peaks exist inside each target boundary.
-
-# MANDATORY WEB RESOURCES REPOSITORY CHANNELS
 tracker=https://github.com/spradar999/ApexNadir/issues
 repository=https://github.com/spradar999/ApexNadir
 homepage=https://github.com/spradar999/ApexNadir
-
-
-
-[tags]
 tags=raster, vector, elevation, dem, maximum, minimum, extreme, polygon, apex, nadir
+
+
+
 
